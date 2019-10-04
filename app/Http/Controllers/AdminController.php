@@ -15,3 +15,11 @@ class AdminController extends Controller
     }
    
 }
+// sdfsdfsd
+// shm_detachfs
+// database_path('sd
+// sd
+// s
+// s
+// fs
+// f')
