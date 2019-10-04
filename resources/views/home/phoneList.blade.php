@@ -1,0 +1,26 @@
+<table>
+<tr>
+    <td><b>brand</b></td>
+    <td><b>model</b></td>
+    <td><b>OS</b></td>
+    <td><b>color</b></td>
+    <td><b>announcement_year</b></td>
+    <td><b>memory</b></td>
+    <td><b>RAM</b></td>
+    <td><b>screen_resolution</b></td>
+    <td><b>screen_size</b></td>
+</tr>
+@foreach ($phone as $ph)
+<tr>
+    <td>{{$ph['brand']}}</td>
+    <td>{{$ph['model']}}</td>
+    <td>{{$ph['OS']}}</td>
+    <td>{{$ph['color']}}</td>
+    <td>{{$ph['announcement_year']}}</td>
+    <td>{{$ph['memory']}}</td>
+    <td>{{$ph['RAM']}}</td>
+    <td>{{$ph['screen_resolution']}}</td>
+    <td>{{$ph['screen_size']}}</td>
+</tr>
+@endforeach
+</table>
